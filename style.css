@@ -1,0 +1,45 @@
+.box{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition-duration: 2.5s;
+}
+
+.box:hover{
+    border: 2px solid black;
+    transform: rotate(180deg) scale(1.5);
+    background-color: pink;
+}
+
+.container{
+    border: 2px solid red;
+    width: 800px;
+    height: 200px;
+}
+
+.ball{
+    border: 2px solid red;
+    border-radius: 100%;
+    width: 200px;
+    height: 198px;
+    background-color: red;
+}
+
+.ball:hover{
+    animation-name: animationS;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes animationS{
+    1%{
+        
+    }
+    50%{
+
+    }
+    100%{
+
+    }
+}
